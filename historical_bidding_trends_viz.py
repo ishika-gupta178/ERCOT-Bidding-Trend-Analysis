@@ -14,6 +14,11 @@ for i in range(1,11):
     price_cols.append(f'QSE submitted Curve-Price{i}')
     supply_cols.append(f'QSE submitted Curve-MW{i}')
 
+subset_cols = []
+subset_cols.extend(price_cols)
+subset_cols.extend(supply_cols)
+df = df[subset_cols]
+
 # Create the first graph (Graph 1)
 def create_graph1(selected_date, selected_unit, selected_resource_type):
     if selected_date is None or selected_unit is None or selected_resource_type is None:
