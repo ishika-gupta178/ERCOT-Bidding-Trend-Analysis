@@ -40,11 +40,17 @@ To View a Visualization:
 2. Navigate to the project folder:
  cd path/to/ERCOT-Bidding-Trend-Analysis
 3. Run one of the following commands, depending on which visualization you’d like to see:
- python historical_bidding_trends_viz.py
+<br>
+python historical_bidding_trends_viz.py
+<br>
 or
+<br>
 python two_months_back_comparison.py
+<br>
 or
+<br>
 python one_year_back_comparison.py
+<br>
 5. After running the command, an HTTPS link will appear on the terminal. Copy the link and paste it into any web browser to view the visualization.
 
 To Close the Visualization:
