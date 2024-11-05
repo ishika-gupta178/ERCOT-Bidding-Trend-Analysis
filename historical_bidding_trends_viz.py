@@ -104,7 +104,6 @@ def create_graph2(selected_date, selected_unit, selected_resource_type):
 
 # Initialize the main Dash app
 app = dash.Dash(__name__)
-server = app.server
 
 # Layout with dropdowns for filtering
 app.layout = html.Div([
